@@ -37,7 +37,7 @@ public class AdminDashboard extends JFrame {
         contentPane.add(leftPanel);
 
         // Logo without resizing
-        ImageIcon logoIcon = new ImageIcon("C:/Users/JC Mendez/git/DSA-FinalProj/ImageIcon/navbar.png");
+        ImageIcon logoIcon = new ImageIcon("C:/Users/JC Mendez/Downloads/AuroraCoveHotel/auroraCoveHotel/ImageIcon/navbar.png");
         JLabel logoLabel = new JLabel(logoIcon);
         logoLabel.setBounds(0, 0, 300, 76);  // Adjusts to the icon's original dimensions
         contentPane.add(logoLabel);  // Add the logoLabel directly to contentPane or the desired panel
@@ -64,7 +64,7 @@ public class AdminDashboard extends JFrame {
         // Button 1 with image
         JButton btnNewButton = new JButton("");
         btnNewButton.setBackground(new Color(3, 91, 150));
-        ImageIcon button1Icon = new ImageIcon("C:/Users/JC Mendez/git/DSA-FinalProj/ImageIcon/Booked.png");
+        ImageIcon button1Icon = new ImageIcon("C:/Users/JC Mendez/Downloads/AuroraCoveHotel/auroraCoveHotel/ImageIcon/Booked.png");
         btnNewButton.setIcon(new ImageIcon(button1Icon.getImage().getScaledInstance(50, 50, Image.SCALE_SMOOTH)));
         btnNewButton.setBounds(30, 26, 265, 664);
         btnNewButton.addActionListener(new ActionListener() {
@@ -77,7 +77,7 @@ public class AdminDashboard extends JFrame {
         // Button 2 with image
         JButton btnNewButton_1 = new JButton("");
         btnNewButton_1.setBackground(new Color(3, 91, 150));
-        ImageIcon button2Icon = new ImageIcon("C:/Users/JC Mendez/git/DSA-FinalProj/ImageIcon/Guest.png");
+        ImageIcon button2Icon = new ImageIcon("C:/Users/JC Mendez/Downloads/AuroraCoveHotel/auroraCoveHotel/ImageIcon/Guest.png");
         btnNewButton_1.setIcon(new ImageIcon(button2Icon.getImage().getScaledInstance(50, 50, Image.SCALE_SMOOTH)));
         btnNewButton_1.setBounds(332, 26, 265, 664);
         leftPanel_1.add(btnNewButton_1);
@@ -85,7 +85,7 @@ public class AdminDashboard extends JFrame {
         // Button 3 with image
         JButton btnNewButton_1_1 = new JButton("");
         btnNewButton_1_1.setBackground(new Color(3, 91, 150));
-        ImageIcon button3Icon = new ImageIcon("C:/Users/JC Mendez/git/DSA-FinalProj/ImageIcon/hotel.png");
+        ImageIcon button3Icon = new ImageIcon("C:/Users/JC Mendez/Downloads/AuroraCoveHotel/auroraCoveHotel/ImageIcon/hotel.png");
         btnNewButton_1_1.setIcon(new ImageIcon(button3Icon.getImage().getScaledInstance(50, 50, Image.SCALE_SMOOTH)));
         btnNewButton_1_1.setBounds(643, 26, 265, 320);
         btnNewButton_1_1.addActionListener(new ActionListener() {
@@ -98,7 +98,7 @@ public class AdminDashboard extends JFrame {
         // Button 4 with image
         JButton btnNewButton_1_1_1 = new JButton("");
         btnNewButton_1_1_1.setBackground(new Color(3, 91, 150));
-        ImageIcon button4Icon = new ImageIcon("C:/Users/JC Mendez/git/DSA-FinalProj/ImageIcon/settings.png");
+        ImageIcon button4Icon = new ImageIcon("C:/Users/JC Mendez/Downloads/AuroraCoveHotel/auroraCoveHotel/ImageIcon/settings.png");
         btnNewButton_1_1_1.setIcon(new ImageIcon(button4Icon.getImage().getScaledInstance(50, 50, Image.SCALE_SMOOTH)));
         btnNewButton_1_1_1.setBounds(643, 370, 265, 320);
         leftPanel_1.add(btnNewButton_1_1_1);
